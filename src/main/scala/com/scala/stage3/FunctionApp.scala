@@ -1,4 +1,4 @@
-package com.scala.a3
+package com.scala.stage3
 
 object FunctionApp {
   def main(args: Array[String]): Unit = {

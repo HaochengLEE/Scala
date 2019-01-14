@@ -1,4 +1,4 @@
-package com.scala.a1
+package com.scala.stage2
 
 object Helloworld {
   def main(args: Array[String]): Unit = {

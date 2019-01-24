@@ -2,11 +2,14 @@ package com.scala.stage4
 
 object ConstructorApp {
   def main(args: Array[String]): Unit = {
-    val person=new Person("Lee",30)
-    println(person.name+person.age+person.school)
+//    val person=new Person("Lee",30)
+//    println(person.name+person.age+person.school)
+//
+//    val person2=new Person("zhang",18,"M")
+//    println(person2.name+person2.age+person2.school+person2.gender)
 
-    val person2=new Person("zhang",18,"M")
-    println(person2.name+person2.age+person2.school+person2.gender)
+    val student=new Student("LHC",22,"Computer")
+    println(student.name)
   }
 
 
@@ -26,5 +29,10 @@ class Person(val name:String,val age:Int){
   }
 
   println("Person leave...")
+
+}
+
+class Student(name:String,age:Int,major:String) extends Person(name,age){
+  println("Student leave...")
 
 }
